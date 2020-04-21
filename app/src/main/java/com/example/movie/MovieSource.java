@@ -27,8 +27,8 @@ public class MovieSource
                 "Bella Swan moves to Forks and encounters Edward Cullen, a gorgeous boy with a secret.", "https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_.jpg");
         Movie m9=new Movie("Under the Shadow", "Horror", "2016", "Narges Rashidi, Bobby Naderi, Avin Manshadi",
                 "As a mother and daughter struggle to cope with the terrors of the post-revolution, war-torn Tehran of the 1980s, a mysterious evil begins to haunt their home.", "https://images-na.ssl-images-amazon.com/images/I/81roZkJok5L._AC_SL1500_.jpg");
-        Movie m10=new Movie("Motherless Brooklyn", "Mystery", "2019", "Edward Norton, Bruce Willis, William Defoe",
-                "In 1950s New York, a lonely private detective afflicted with Tourette's Syndrome ventures to solve the murder of his mentor and only friend.", "https://www.gstatic.com/tv/thumb/v22vodart/16618984/p16618984_v_v8_ad.jpg");
+        /*Movie m10=new Movie("Motherless Brooklyn", "Mystery", "2019", "Edward Norton, Bruce Willis, William Defoe",
+                "In 1950s New York, a lonely private detective afflicted with Tourette's Syndrome ventures to solve the murder of his mentor and only friend.", "https://www.gstatic.com/tv/thumb/v22vodart/16618984/p16618984_v_v8_ad.jpg"); */
 
         movies.add(m1);
         movies.add(m2);
@@ -39,7 +39,7 @@ public class MovieSource
         movies.add(m7);
         movies.add(m8);
         movies.add(m9);
-        movies.add(m10);
+        //movies.add(m10);
     }
 
     public ArrayList<Movie> getMovies()
